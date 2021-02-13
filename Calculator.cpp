@@ -4,6 +4,20 @@
 
 using namespace std;
 
+//Ethen Lee Oliva
+//Instructor: Ken Mirdeenk
+//Programming Assignment 5 - Enums
+//Purpose: This program will give you experience with enums in C++.
+
+//Details:
+/**
+ * Complete the provided C++ program by implementing the function calculate.
+   This program uses an enum. Your job is to implement a function that takes an enum value and
+   two ints as parameters and returns an int. The values of the enum represent the
+   mathematical operations +, -, *, and /. Your code will use a decision to choose the appropriate
+   operation.
+ **/
+
 
 enum Operator { Add, Subtract, Multiply, Divide };
 
@@ -65,7 +79,7 @@ int calculate(Operator mathOperator, int firstOperand, int secondOperand) {
 	//We're going to use a switch statement in this case,
 	//because it looks a little more neat and easy to read.
 
-	//4 different cases, one for each of the basic mathematical operations
+	//4 different cases, one for each of the basic mathematical operations.
 	switch (mathOperator) {
 		case Operator::Add:
 			return firstOperand + secondOperand;
