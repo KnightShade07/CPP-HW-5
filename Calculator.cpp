@@ -7,6 +7,7 @@ using namespace std;
 //Ethen Lee Oliva
 //Instructor: Ken Mirdeenk
 //Programming Assignment 5 - Enums
+//GitHub Repository Link:https://github.com/KnightShade07/CPP-HW-5
 //Purpose: This program will give you experience with enums in C++.
 
 //Details:
