@@ -58,16 +58,15 @@ int main() {
 }
 
 int calculate(Operator mathOperator, int firstOperand, int secondOperand) {
-	//while loop that allows the user to continue entering calculations until
-	//0+0 is entered.
 
-	//We do not need to do that part however, as that code
-	//has already been provided to us.
+	//The different operations can be done.
+	//using either an if/else chain or a switch statement.
+		
+	//We're going to use a switch statement in this case,
+	//because it looks a little more neat and easy to read.
 
-	while (mathOperator)
-	{
-		/* code */
-	}
+
+
 	
 	return 0;
 }
