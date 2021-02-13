@@ -65,10 +65,20 @@ int calculate(Operator mathOperator, int firstOperand, int secondOperand) {
 	//We're going to use a switch statement in this case,
 	//because it looks a little more neat and easy to read.
 
-
-
+	//4 different cases, one for each of the basic mathematical operations
+	switch (mathOperator) {
+		case Operator::Add:
+			return firstOperand + secondOperand;
+		case Operator::Subtract:
+			return firstOperand - secondOperand;
+		case Operator::Multiply:
+			return firstOperand * secondOperand;
+		case Operator::Divide:
+			return firstOperand / secondOperand;
+		
+	}
 	
-	return 0;
+	
 }
 
 void displayInstructions() {
