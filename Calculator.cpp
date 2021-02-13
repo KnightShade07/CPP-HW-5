@@ -58,7 +58,7 @@ int main() {
 }
 
 int calculate(Operator mathOperator, int firstOperand, int secondOperand) {
-	// TO DO: implement this function
+	
 	return 0;
 }
 
